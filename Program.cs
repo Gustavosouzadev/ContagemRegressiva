@@ -20,17 +20,21 @@ namespace ContagemRegressiva
             
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.Beep();
             Console.WriteLine(preparar);
             Console.ReadLine();
             
             Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.Beep();
             Console.WriteLine(Apontar);
             Console.ReadLine();
 
             Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.Beep();
             Console.WriteLine(FOGO);
             
             Console.ResetColor();
+            Console.Beep();
         }
     }
 }
