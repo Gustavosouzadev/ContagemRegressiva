@@ -34,6 +34,7 @@ namespace ContagemRegressiva
             Console.WriteLine(FOGO);
             
             Console.ResetColor();
+            
             Console.Beep();
         }
     }
